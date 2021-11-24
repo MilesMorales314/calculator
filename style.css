@@ -1,0 +1,32 @@
+body {
+	font-family: 'Arabic';
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	background-color: indigo;
+	background-image: linear-gradient(-45deg, pink, indigo);
+	color: white;
+	padding: 7.5rem 0;
+
+}
+
+form {
+	text-align: center;
+	width: 100%;
+	padding: 5rem 0;
+	margin: 0 auto;
+	font-size: 2.5em;
+}
+
+#number1,
+#number2,{
+	font-size: 1.5rem;
+}
+
+#plus,#minus,#into,#divide {
+	padding: 1rem;
+	font-size: 2.5rem;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			'Calculator'
+		</title>
+		<link href='style.css' rel=stylesheet type=text/css>
+	</head>
+	<body>
+		<h1>Welcome to home made calculator</h1>
+		<form action=calc.php method=POST>
+			<label for=number1>Enter First Number : </label>
+			<input type=number name=number1 id=number1 placeholder='Enter first number here'>
+			<br>
+			<br>
+			<label for=number2>Enter Second Number : </label>
+			<input type=number name=number2 id=number2 placeholder='Enter second number here'>
+			<br>
+			<br>
+			<p>Select the operation to be done.</p>
+			<br>
+			<section id=operations class=operations>
+				<button name=operation id=plus value='+'>+</button>
+				<button name=operation id=minus value'-'>-</button>
+				<br>
+				<br>
+				<button name=operation id=into value='*'>*</button>
+				<button name=operation id=divide value='/'>/</button>
+				<br>
+				<br>
+			</section>
+		</form>
+	</body>
+</html>
